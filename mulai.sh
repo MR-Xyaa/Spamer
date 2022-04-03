@@ -24,6 +24,7 @@ sleep 5
 clear
 
 python logo.py
+sleep 2
 echo -e $ijo"1. Spam Whatsaap"
 echo -e $bm"2. Spam Call"
 
@@ -33,4 +34,10 @@ then
 clear
 toilet -f slant "Spamer";
 php wa.php
+fi
+if [ $bro = 2 ] || [ $bro = 2 ]
+then
+clear
+toilet -f slant "Spamer";
+php call.php
 fi
