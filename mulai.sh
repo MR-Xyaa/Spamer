@@ -27,7 +27,7 @@ python logo.py
 sleep 2
 echo -e $ijo"1. Spam Whatsaap"
 echo -e $bm"2. Spam Call"
-
+echo -e $abang""
 read -p "Pilih No:" bro
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
