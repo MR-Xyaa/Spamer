@@ -1,5 +1,5 @@
-
+- pkg install php
 - git clone https://MR-Xyaa/Spamer
 - cd Spamer
 - git pull
-- sh mulai.sh
+- bash mulai.sh
