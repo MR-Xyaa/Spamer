@@ -9,9 +9,7 @@
 
 cd module
 clear
-python loading.py
-sleep 5
-clear
+
 biru='\033[34;1m'
 ijo='\033[32;1m'  
 ungu='\033[35;1m'
@@ -21,10 +19,18 @@ putih='\033[37;1m'
 kuning='\033[33;1m'
 sleep 1
 
+python loading.py
+sleep 5
+clear
 
-toilet -f slant "Spamer";
+python logo.py
 echo -e $ijo"1. Spam Whatsaap"
 echo -e $bm"2. Spam Call"
 
 read -p "Pilih No:" bro
 if [ $bro = 1 ] || [ $bro = 1 ]
+then
+clear
+toilet -f slant "Spamer";
+php wa.php
+fi
