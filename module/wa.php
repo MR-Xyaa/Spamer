@@ -19,7 +19,7 @@ for($a=0;$a<$jumlah;$a++) {
 	$rand3 = md5($rand[rand(1,2)]);
 	$config['headers'] = explode("\n", "Host: m.bukalapak.com
 Connection: keep-alive
-Content-Length: 971
+Content-Length: 5
 Origin: https://m.bukalapak.com
 X-CSRF-Token: uYUfi93g92mZboBVB4UMwYInorBNOgyYEAbPUTikHht+xseF8BFUgg9qSgQWA9MRy7eL8G/SnbYUGg0JRM1fjw==
 User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
