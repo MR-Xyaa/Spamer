@@ -18,10 +18,8 @@ for($a=0;$a<$jumlah;$a++) {
 	$rand = array($rand1,$rand2);
 	$rand3 = md5($rand[rand(1,2)]);
 	$config['headers'] = explode("\n", "Host: m.bukalapak.com
-	$config['headers'] = explode("\n", "Host: m.facebook.com
 Connection: keep-alive
-Content-Length: 134
-Origin: https://m.facebook.com
+Content-Length: 971
 Origin: https://m.bukalapak.com
 X-CSRF-Token: uYUfi93g92mZboBVB4UMwYInorBNOgyYEAbPUTikHht+xseF8BFUgg9qSgQWA9MRy7eL8G/SnbYUGg0JRM1fjw==
 User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
@@ -29,7 +27,6 @@ Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 Accept: */*
 X-Requested-With: XMLHttpRequest
 Save-Data: on
-Referer: https://m.facebook.com/register?from=home_mobile
 Referer: https://m.bukalapak.com/register?from=home_mobile
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9,id;q=0.8
