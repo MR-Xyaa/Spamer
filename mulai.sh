@@ -33,6 +33,7 @@ if [ $bro = 1 ] || [ $bro = 1 ]
 then
 clear
 toilet -f slant "Spamer";
+echo "" | lolcat
 php wa.php
 fi
 if [ $bro = 2 ] || [ $bro = 2 ]
