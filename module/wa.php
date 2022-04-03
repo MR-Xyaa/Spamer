@@ -1,6 +1,6 @@
 <?php
-echo "COPYRIGHT : SGB TEAM\n\n";
-echo "Nomor Target?\nInput : ";
+echo "Created By : MR-Xyaa\n\n";
+echo "Nomor Target Bang?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
