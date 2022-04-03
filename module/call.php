@@ -11,8 +11,8 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "Created By; MR-Xyaa\n\n";
-echo "Nomor\nInput : ";
+echo "Created By ; MR-Xyaa\n\n";
+echo "Nomor Target Bang?\nInput : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
